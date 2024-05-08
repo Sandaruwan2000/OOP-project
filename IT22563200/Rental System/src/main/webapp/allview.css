@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+
+table,th  {
+	
+	border: 1px solid black;
+}
+.type{
+    height: 800px;
+  }
+ 
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #333;
+    color: white;
+}
+
+
+.forms {
+    display: inline;
+}
+
+
+input[type="password"] {
+    width: 60px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+.type {
+    text-align: center;
+    padding: 20px;
+}
+
+
+[type="submit"][name="submit"] {
+    background-color: #3498db;
+}
+
+
+[type="submit"][name="submit"]:hover {
+    background-color: #2980b9;
+}
+
+body{
+	 background-color:rgb(237, 229, 229);
+}
+    

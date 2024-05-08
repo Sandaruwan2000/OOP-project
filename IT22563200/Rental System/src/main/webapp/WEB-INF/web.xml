@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Rental System</display-name>
+  
+  
+  <servlet>
+  <servlet-name>Insert</servlet-name>
+  <servlet-class>Addvehi.adsvehicleservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Insert</servlet-name>
+  <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>Search </servlet-name>
+  <servlet-class>Addvehi.searchservlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Search</servlet-name>
+  <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Update </servlet-name>
+  <servlet-class>Addvehi.updateservlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Update</servlet-name>
+  <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Delete </servlet-name>
+  <servlet-class>Addvehi.deleteservlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Delete</servlet-name>
+  <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Allview </servlet-name>
+  <servlet-class>Addvehi.viewservelet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Allview</servlet-name>
+  <url-pattern>/view</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+ 
+  
+</web-app>

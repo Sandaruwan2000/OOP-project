@@ -1,0 +1,206 @@
+@charset "ISO-8859-1";
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header{
+    border: none;
+    width:1290px ;
+    height: 100px;
+    position: fixed;
+    top : -17px ;
+    z-index: 1;
+    
+   
+
+
+}
+
+.navbar2{
+    display: inline-block ;
+    
+ }
+ 
+ 
+ .navbar2{
+    border: none;
+    width: 1190px ;
+    height:100px ;
+    background-color:rgb(0, 0, 53);
+    position: relative;
+    left: 90px;
+    top:-95px;
+    font-family: "Signika", Sans-serif;
+    text-decoration: none;
+    
+    }
+
+.newlogo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+	
+    top:9px;
+}
+
+.navbar2 ul {
+    display: inline-flex;
+    list-style: none;
+    font-family: "Signika", Sans-serif;
+    font: bold;
+   
+}
+.navbar2 ul li {
+    position: relative;
+    left: -430px;
+    top: 30px;
+    font-size: large;
+   
+    
+}.navbar2 ul li a{
+    margin:50px;
+    
+    position: relative;
+   
+    top:10px ;
+    left:500px;
+   
+}
+.navbar2 ul li a  :visited{
+    color: blueviolet;
+
+}
+.navbar2 ul li a :hover{
+    color: rgb(255, 255, 255);
+
+}
+.navbar2 ul li a :active {    color: red;
+}
+
+.navbar2 a {
+   color:rgb(239, 244, 11);
+    font-size: large;
+    position: relative;
+    top:10px ;
+    left:120px;
+
+    
+
+}.navbar2 a :visited{
+    color: blueviolet;
+}
+.navbar2 a :hover{
+    color: black;
+}
+.navbar2 a :active{
+    color: red;
+}
+.newlogo1{
+    width: 250px;
+    height: 110px;
+    position: relative;
+	left:1025px;
+    top:-205px;
+}
+
+
+/* Table styles */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #333;
+    color: white;
+}
+
+/* Form styles */
+.form, .enter {
+    margin: 20px;
+    text-align: left;
+}
+
+.form table, .enter table {
+    width: 100%;
+}
+
+.form table td, .enter table td {
+    padding: 10px;
+}
+
+.form button, .enter button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* Select styles */
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Input styles */
+input[type="text"], input[type="date"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button styles */
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* Styling the "Submit" button */
+button[type="submit"][name="submit"] {
+    background-color: #3498db;
+}
+
+/* Styling the "Submit" button on hover */
+button[type="submit"][name="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Styling the "Entry" button */
+button[type="submit"][name="login"] {
+    background-color: #4CAF50;
+}
+
+/* Styling the "Entry" button on hover */
+button[type="submit"][name="login"]:hover {
+    background-color: #45a049;
+}

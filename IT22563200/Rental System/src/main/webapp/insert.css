@@ -1,0 +1,210 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'popins',sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+body{
+    background-color: rgb(243, 238, 238);
+    
+}
+
+.header{
+    border: none;
+    width:1290px ;
+    height: 100px;
+    position: fixed;
+    top : -17px ;
+    z-index: 1;
+    
+   
+
+
+}
+
+.navbar2{
+    display: inline-block ;
+    
+ }
+ 
+ 
+ .navbar2{
+    border: none;
+    width: 1190px ;
+    height:100px ;
+    background-color:rgb(0, 0, 53);
+    position: relative;
+    left: 90px;
+    top:-95px;
+    font-family: "Signika", Sans-serif;
+    text-decoration: none;
+    
+    }
+
+.newlogo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+	
+    top:9px;
+}
+
+.navbar2 ul {
+    display: inline-flex;
+    list-style: none;
+    font-family: "Signika", Sans-serif;
+    font: bold;
+   
+}
+.navbar2 ul li {
+    position: relative;
+    left: -430px;
+    top: 30px;
+    font-size: large;
+   
+    
+}.navbar2 ul li a{
+    margin:50px;
+    
+    position: relative;
+   
+    top:10px ;
+    left:500px;
+   
+}
+.navbar2 ul li a  :visited{
+    color: blueviolet;
+
+}
+.navbar2 ul li a :hover{
+    color: rgb(255, 255, 255);
+
+}
+.navbar2 ul li a :active {    color: red;
+}
+
+.navbar2 a {
+   color:rgb(239, 244, 11);
+    font-size: large;
+    position: relative;
+    top:10px ;
+    left:120px;
+
+    
+
+}.navbar2 a :visited{
+    color: blueviolet;
+}
+.navbar2 a :hover{
+    color: black;
+}
+.navbar2 a :active{
+    color: red;
+}
+.newlogo1{
+    width: 250px;
+    height: 110px;
+    position: relative;
+	left:1025px;
+    top:-205px;
+}
+
+
+
+.table{
+    padding: 20px;
+    border-spacing: 10px;
+    position: relative;
+   
+  }
+  
+  .form{
+    border:solid 5px rgb(112, 110, 110); 
+    border-radius: 20px;
+    background-color:rgb(237, 229, 229);
+   color: hsl(0, 87%, 3%);
+    width:500px;
+    height: 500px ;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    
+    left:400px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    position: relative;
+    top: 100px;
+}
+
+.form input{
+    height: 20px;
+    
+
+   }
+   
+   .enter input{
+	     height: 20px;
+	     background-color: rgb(186, 187, 192);
+	   	
+   }
+   
+   .enter{
+	   position: relative;
+	   top:100px;
+	   left: 950PX;
+	   
+	   
+   }
+   .form button,.enter button{
+    width: 100px; 
+    height: 25px;  
+    border-radius: 7px; 
+    background-color:green;
+    color:white;
+    position: relative;
+    top:10px;
+    left: 300px;
+
+}
+    .enter button{
+    width: 100px; 
+    height: 25px;  
+    border-radius: 7px; 
+    background-color:green;
+    color:white;
+    position: relative;
+    top:5px;
+    left: 200px;
+
+}
+.b1,.b2{
+	width: 100px; 
+    height: 25px;  
+    border-radius: 7px; 
+    background-color:green;
+    color:white;
+    position: relative;
+    top:100px;
+    left: 900px;
+	
+}
+.b3{
+	  width: 100px; 
+    height: 25px;  
+    border-radius: 7px; 
+    background-color:green;
+    color:white;
+    position: relative;
+    top:5px;
+    left: 200px;
+	
+}
